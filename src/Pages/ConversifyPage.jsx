@@ -2,7 +2,7 @@ import React from 'react'
 import NavbarComponent from '../Components/NavbarComponent'
 import ConversifyImg from '../assets/ConversifyImg.png'
 import { FaCheck } from 'react-icons/fa';
-import {FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight } from 'react-icons/fa';
 
 function ConversifyPage() {
   return (
@@ -140,27 +140,27 @@ function ConversifyPage() {
       </div>
 
 
-            {/* next Section */}
-                        <div className="w-100 d-flex align-items-center justify-content-center mt-5" style={{ backgroundColor: '#198754', minHeight: '500px' }}>
-                            <div className="container py-4 px-3 text-white" style={{ background: 'linear-gradient(to right, #198754, #4ade80)', borderRadius: '12px', boxShadow: '0 8px 16px rgba(0, 0, 0, 0.2)' }}>
-                                <h6 className="text-center mb-4">PARTNER WITH EXPERTS</h6>
-                                <div className="row g-4">
-                                    <div className="col-12 col-md-6">
-                                        <h3 className="fs-2">Ready To Chat Smarter With Conversify?</h3>
-                                        <p className="mt-3 fs-5">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, odio pariatur cupiditate sunt dolore deleniti a totam aliquid amet quibusdam minus ipsum iste tempore inventore sit voluptate temporibus voluptatum iusto?
-                                        </p>
-                                    </div>
-                                    <div className="col-12 col-md-6 d-flex justify-content-center align-items-start">
-                                        <button className="btn btn-light text-success fw-semibold px-4 py-3 rounded-pill shadow" style={{ marginTop: '30px' }}>
-                                            Get Started Today <FaArrowRight className="ms-2" />
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      {/* next Section */}
+      <div className="w-100 d-flex align-items-center justify-content-center mt-5" style={{ backgroundColor: '#198754', minHeight: '500px' }}>
+        <div className="container py-4 px-3 text-white" style={{ background: 'linear-gradient(to right, #198754, #4ade80)', borderRadius: '12px', boxShadow: '0 8px 16px rgba(0, 0, 0, 0.2)' }}>
+          <h6 className="text-center mb-4">PARTNER WITH EXPERTS</h6>
+          <div className="row g-4">
+            <div className="col-12 col-md-6">
+              <h3 className="fs-2">Ready To Chat Smarter With Conversify?</h3>
+              <p className="mt-3 fs-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, odio pariatur cupiditate sunt dolore deleniti a totam aliquid amet quibusdam minus ipsum iste tempore inventore sit voluptate temporibus voluptatum iusto?
+              </p>
+            </div>
+            <div className="col-12 col-md-6 d-flex justify-content-center align-items-start">
+              <button className="btn btn-light text-success fw-semibold px-4 py-3 rounded-pill shadow" style={{ marginTop: '30px' }}>
+                Get Started Today <FaArrowRight className="ms-2" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-            
+
 
     </div>
   )

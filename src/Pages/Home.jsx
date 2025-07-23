@@ -1,4 +1,4 @@
-import React from 'react';import Nav from 'react-bootstrap/Nav';
+import React from 'react'; import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
@@ -12,8 +12,8 @@ import NavbarComponent from '../Components/NavbarComponent';
 function Header() {
     return (
         <div>
-            <NavbarComponent/>
-          
+            <NavbarComponent />
+
             {/* Card Section */}
             <Container className="mt-5">
                 <Card className="p-4">
@@ -40,9 +40,13 @@ function Header() {
                     <p className="mt-3">
                         Transform your platform with Conversify, where intelligent, seamless chat experiences empower users to connect, engage, and communicate more effectively than ever before. Boost engagement with smooth, real-time messaging—only with Conversify.
                     </p>
-                    <button className="btn btn-success d-flex align-items-center gap-2 fw-semibold px-4 py-2 rounded-3">
+                    <button
+                        className="btn btn-success d-flex align-items-center gap-2 fw-semibold px-2 py-2 rounded-3 text-nowrap"
+                        style={{ width: '140px', overflow: 'hidden', whiteSpace: 'nowrap' }}
+                    >
                         <FaSpinner className="spin" /> GET THE APP
                     </button>
+
 
                     <div className="mt-5 p-4 rounded-3 text-white" style={{ backgroundColor: '#198754' }}>
                         <h2 className="mb-2 fs-2">Ready to Make Conversations Effortless with Conversify?</h2>
@@ -72,7 +76,7 @@ function Header() {
                 </div>
             </div>
 
-            
+
         </div>
     );
 }

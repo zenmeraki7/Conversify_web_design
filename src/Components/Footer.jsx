@@ -69,27 +69,27 @@ function Footer() {
                         <div className="bg-success mt-2 mb-3" style={{ width: '40px', height: '3px' }}></div>
 
                         {/* Location */}
-                        <div className="bg-white shadow-sm p-3 mb-3 rounded footer-clickable">
+                        <div className="bg-white shadow-sm p-2 mb-2 rounded footer-clickable">
                             <div className="d-flex align-items-center mb-1">
                                 <FaMapMarkerAlt className="text-success me-2" /> <strong>Location</strong>
                             </div>
-                            <div className="ps-4">Thrissur, Kerala</div>
+                            <div className="ms-4">Thrissur, Kerala</div>
                         </div>
 
                         {/* Email */}
-                        <div className="bg-white shadow-sm p-3 mb-3 rounded footer-clickable">
+                        <div className="bg-white shadow-sm p-2 mb-2 rounded footer-clickable">
                             <div className="d-flex align-items-center mb-1">
                                 <FaEnvelope className="text-success me-2" /> <strong>Email</strong>
                             </div>
-                            <div className="ps-4">official@zenmeraki.com</div>
+                            <div className="ms-4">official@zenmeraki.com</div>
                         </div>
 
                         {/* Phone */}
-                        <div className="bg-white shadow-sm p-3 rounded footer-clickable">
+                        <div className="bg-white shadow-sm p-2 rounded footer-clickable">
                             <div className="d-flex align-items-center mb-1">
                                 <FaPhoneAlt className="text-success me-2" /> <strong>Phone</strong>
                             </div>
-                            <div className="ps-4">+91 6282346108</div>
+                            <div className="ms-4">+91 6282346108</div>
                         </div>
                     </div>
 
