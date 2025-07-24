@@ -23,13 +23,19 @@ function ConversifyPage() {
 
       {/* Centered Image  */}
       <div className="d-flex justify-content-center mt-4">
-        <img
-          src={ConversifyImg}
-          alt="Conversify Chat"
-          className="img-fluid"
-          style={{ width: '70%' }}
-        />
+        <div
+          className="shadow p-4 bg-white rounded-4"
+          style={{ width: '75%', maxWidth: '1000px' }}
+        >
+          <img
+            src={ConversifyImg}
+            alt="Conversify Chat"
+            className="img-fluid rounded-3"
+            style={{ width: '100%' }}
+          />
+        </div>
       </div>
+
 
 
       {/* how to work */}
