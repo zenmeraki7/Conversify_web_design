@@ -78,9 +78,9 @@ function NavbarComponent() {
                             }}
                         >
                             <Stack spacing={1}>
-                               <MenuItem sx={{ borderTop: '1px solid black', borderBottom: '1px solid black' }} component="a" href="#design">
-                            Shopify App Development
-                        </MenuItem>
+                                <MenuItem sx={{ borderTop: '1px solid black', borderBottom: '1px solid black' }} component="a" href="#design">
+                                    Shopify App Development
+                                </MenuItem>
                                 <Button href="#development" sx={{ justifyContent: 'flex-start', color: 'black' }}>
                                     Custom Shopify App Development
                                 </Button>

@@ -13,7 +13,7 @@ function ConversifyPage() {
 
 
 
-      
+
       <Box
         display="flex"
         justifyContent="center"
@@ -33,7 +33,7 @@ function ConversifyPage() {
         </Box>
       </Box>
 
-   
+
 
 
       <Box
@@ -207,7 +207,7 @@ function ConversifyPage() {
 
 
 
-      
+
 
       {/* Tutorial Video */}
       <Box
